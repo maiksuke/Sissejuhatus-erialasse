@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    color: red;
+    font-size: 58px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+p {
+    color: green;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.pilt {
+    margin-top: 200px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.pilt:hover {
+    transform: scale(1.05);
+}
+
+a {
+    margin: 10px;
+}
+
+.tabel-pais {
+    color: blueviolet;
+}
+
+.tabel-kast {
+    border: 5px solid black;
+}
