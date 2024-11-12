@@ -1,0 +1,83 @@
+body {
+    background-color: cadetblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.veerg {
+    margin-left: 1rem;
+    flex: 50%;
+    height: 100%;
+}
+
+.pealkiri {
+    font-family: cursive;
+    font-size: 40px;
+    padding: 0.5rem;
+}
+.vajalik {
+    margin: 1rem;
+}
+
+.vajalik a {
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    margin: 0.5rem;
+}
+
+.pildid {
+    position: relative;
+    animation: vahetaPilt 10s infinite;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+@keyframes vahetaPilt {
+    0% {
+        background-image: url("../pildid/pilt1.jpg");
+    }
+    33% {
+        background-image: url("../pildid/pilt2.jpg");
+    }
+    66% {
+        background-image: url("../pildid/pilt3.jpg");
+    }
+    100% {
+        background-image: url("../pildid/pilt1.jpg");
+    }
+}
+
+.lingid {
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.lingid a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.info {
+    display: inline-table;
+    justify-content: center;
+    text-align: center;
+}
+#googleKaart {
+    width: 100%;
+}
